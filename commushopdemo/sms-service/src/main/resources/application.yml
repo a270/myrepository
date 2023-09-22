@@ -12,6 +12,6 @@ spring:
     name: sms-service
   redis:
     database: 0
-    host: 192.168.127.136
+    host: xxx  //填写你的主机ip
     port: 6379
-    password: Zzy1591
+    password: xxx  //填写你的密码
