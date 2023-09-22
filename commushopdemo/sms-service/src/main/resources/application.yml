@@ -2,10 +2,10 @@ server:
   port: 8083
 
 aliyun:
-  accessKey: LTAI5t6K9tpboXNarb6sQnCB
-  secret: SkAZ26Yq7rXVDGk4JuX8lFoVu9unrn
+  accessKey: xxx  
+  secret: xxx  //填写你的accessKey和secret
   signature: 阿里云短信测试
-  templateCode: SMS_154950909
+  templateCode: SMS_154950909  //填写你的签名和模板码
 
 spring:
   application:
