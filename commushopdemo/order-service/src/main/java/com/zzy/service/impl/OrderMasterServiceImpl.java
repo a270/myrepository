@@ -87,9 +87,9 @@ public class OrderMasterServiceImpl extends ServiceImpl<OrderMasterMapper, Order
 
         }
         //通知后台管理系统
-        this.webSocket.sendMessage("有新的订单");
-//        //将消息存入RocketMQ
-//        this.rocketMQTemplate.convertAndSend("myTopic", "有新的订单");
+        //this.webSocket.sendMessage("有新的订单");
+        //将消息存入RocketMQ
+        this.rocketMQTemplate.convertAndSend("myTopic", "有新的订单");
 
         return orderMaster.getOrderId();
     }
