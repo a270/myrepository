@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+aliyun:
+  accessKey: LTAI5t6K9tpboXNarb6sQnCB
+  secret: SkAZ26Yq7rXVDGk4JuX8lFoVu9unrn
+  signature: 阿里云短信测试
+  templateCode: SMS_154950909
+
+spring:
+  application:
+    name: sms-service
+  redis:
+    database: 0
+    host: 192.168.127.136
+    port: 6379
+    password: Zzy1591
