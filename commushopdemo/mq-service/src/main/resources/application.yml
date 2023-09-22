@@ -4,4 +4,4 @@ spring:
   application:
     name: mq-service
 rocketmq:
-  name-server: 192.168.127.136:9876
+  name-server: xxx  //填写你的ip地址和端口号
