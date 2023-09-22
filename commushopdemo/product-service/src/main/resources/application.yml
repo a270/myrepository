@@ -4,8 +4,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/commushop?serverTimezone=UTC
-    username: root
-    password: 1234
+    username: xxx
+    password: xxx  //填写你的用户名和密码
   application:
     name: product-service
 mybatis-plus:
