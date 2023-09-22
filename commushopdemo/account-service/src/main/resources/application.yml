@@ -4,15 +4,15 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/commushop?serverTimezone=UTC
-    username: root
-    password: 1234
+    username: xxx
+    password: xxx  //填写你的用户名和密码
   application:
     name: account-service
   redis:
-    database: 0
-    host: 192.168.127.136
-    port: 6379
-    password: Zzy1591
+    database: 0  //填写你的库号
+    host: xxx  //填写你的ip地址
+    port: 6379  //填写你的端口号
+    password:   //填写你的密码
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
